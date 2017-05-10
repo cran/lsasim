@@ -5,7 +5,7 @@
 \title{Generation of item response data using a rotated block design}
 \usage{
 response_gen(subject, item, theta, a_par = NULL, b_par, c_par = NULL,
-  d_par = NULL, ogive = "Logistic")
+  d_par = NULL, item_no = NULL, ogive = "Logistic")
 }
 \arguments{
 \item{subject}{integer vector of test taker IDs.}
@@ -22,6 +22,8 @@ response_gen(subject, item, theta, a_par = NULL, b_par, c_par = NULL,
 
 \item{d_par}{list of numeric vectors of item threshold parameters for each item.}
 
+\item{item_no}{vector of item numbers the correspond the item parameters}
+
 \item{ogive}{can be "Normal" or "Logistic".}
 }
 \description{
@@ -33,6 +35,7 @@ Creates a data frame of discrete item responses based on.
 
 Generalized partial credit models (\code{!is.null(d_par)}) uses threshold parameterization.
 }
+
 \examples{
 set.seed(1234)
 s_id <- c(1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 
@@ -57,4 +60,3 @@ response_gen(subject = s_id, item = i_id, theta = rnorm(20, 0, 1),
              b_par = bb, a_par = aa, c_par = cc, d_par = dd)
 
 }
-
