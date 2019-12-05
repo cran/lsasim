@@ -1,4 +1,4 @@
-3e68587f4b569551b94b770713161fe8 *DESCRIPTION
+21a2193baf95987f2ce3cd54002a2570 *DESCRIPTION
 4ce5dadfa99b135bea966772862f8466 *NAMESPACE
 f80e95051f544abccdcbabcc76e387d7 *R/beta_gen.R
 4a1f9fa18af2601eb01c5fdc04f3b806 *R/beta_gen_auxiliaryFunctions.R
@@ -8,9 +8,9 @@ cdf9cc04fd6505bc7f54cf9f78d69fd1 *R/booklet_design.R
 40a414aad51c5b64291b42b6ac384f92 *R/check_condition.R
 5409490678dc45517d9069e5fa2fdef7 *R/check_ignored_parameters.R
 a25d382fd2c4c851e3f3fcb59300177b *R/cor_gen.R
-8dd7b9fd35b3347583ed5eae55f8a99f *R/cov_gen.R
+f95dac7cb2477cf025a3d2f3c7ea6a74 *R/cov_gen.R
 b2b4dfa56d5fb086fc285230e92c52ef *R/cov_yfz_gen.R
-31bb8fedf287e014e3d915374a16bb7f *R/cov_yxw_gen.R
+c36aa5328ccfe6e22d2d267ce9ab92af *R/cov_yxw_gen.R
 ac8b68409f4053ea18e3f452ba96991b *R/cov_yxz_gen.R
 d3985d537fe877b64a7a7f4de556d0b4 *R/gen_cat_prop.R
 a63c60bd27864ae5fed9e44085f968c1 *R/gen_variable_n.R
