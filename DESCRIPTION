@@ -1,7 +1,7 @@
 Package: lsasim
 Title: Functions to Facilitate the Simulation of Large Scale Assessment
         Data
-Version: 2.0.1
+Version: 2.0.2
 Authors@R: c(
   person("Tyler", "Matta",
          email = "tyler.matta@gmail.com", role = "aut"),
@@ -14,9 +14,9 @@ Authors@R: c(
   person("Kondwani Kajera", "Mughogho",
          email = "k.k.mughogho@cemo.uio.no", role = "ctb"),
   person("Waldir", "Leoncio",
-         email = "waldir.leoncio@gmail.com", role = c("aut", "cre"))
+         email = "w.l.netto@medisin.uio.no", role = c("aut", "cre"))
   )
-Maintainer: Waldir Leoncio <waldir.leoncio@gmail.com>
+Maintainer: Waldir Leoncio <w.l.netto@medisin.uio.no>
 BugReports: https://github.com/tmatta/lsasim/issues
 Description: Provides functions to simulate data from large-scale educational
   assessments, including background questionnaire data and cognitive item
@@ -26,10 +26,10 @@ Depends: R (>= 3.3.0)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1
 Suggests: testthat, polycor
 NeedsCompilation: no
-Packaged: 2019-12-05 19:54:55 UTC; waldir
+Packaged: 2020-09-10 07:00:29 UTC; waldir
 Author: Tyler Matta [aut],
   Leslie Rutkowski [aut],
   David Rutkowski [aut],
@@ -37,4 +37,4 @@ Author: Tyler Matta [aut],
   Kondwani Kajera Mughogho [ctb],
   Waldir Leoncio [aut, cre]
 Repository: CRAN
-Date/Publication: 2019-12-05 20:30:02 UTC
+Date/Publication: 2020-09-10 14:10:07 UTC
