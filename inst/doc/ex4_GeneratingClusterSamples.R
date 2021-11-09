@@ -2,8 +2,10 @@
 library(knitr)
 library(formatR)
 options(width = 90, tidy = TRUE, warning = FALSE, message = FALSE)
-opts_chunk$set(comment = "", warning = FALSE, message = FALSE,
-               echo = TRUE, tidy = TRUE)
+opts_chunk$set(
+  comment = "", warning = FALSE, message = FALSE,
+  echo = TRUE, tidy = TRUE
+)
 
 ## ----load-------------------------------------------------------------------------------
 library(lsasim)
@@ -12,16 +14,18 @@ library(lsasim)
 packageVersion("lsasim")
 
 ## ----equation, eval=FALSE---------------------------------------------------------------
-#  cluster_gen(n, N = 1, cluster_labels = NULL, resp_labels = NULL,
-#              cat_prop = NULL, n_X = NULL, n_W = NULL, c_mean = NULL,
-#              sigma = NULL, cor_matrix = NULL, separate_questionnaires = TRUE,
-#              collapse = "none", sum_pop = sapply(N, sum), calc_weights = TRUE,
-#              sampling_method = "mixed", rho = NULL, theta = FALSE,
-#              verbose = TRUE, print_pop_structure = verbose)
+#  cluster_gen(n,
+#    N = 1, cluster_labels = NULL, resp_labels = NULL,
+#    cat_prop = NULL, n_X = NULL, n_W = NULL, c_mean = NULL,
+#    sigma = NULL, cor_matrix = NULL, separate_questionnaires = TRUE,
+#    collapse = "none", sum_pop = sapply(N, sum), calc_weights = TRUE,
+#    sampling_method = "mixed", rho = NULL, theta = FALSE,
+#    verbose = TRUE, print_pop_structure = verbose
+#  )
 
 ## ----ex 1-------------------------------------------------------------------------------
 set.seed(4388)
-cg <- cluster_gen(c(n = 3, N= 5))
+cg <- cluster_gen(c(n = 3, N = 5))
 
 ## ----ex 1_str---------------------------------------------------------------------------
 cg$n[[1]]
@@ -42,7 +46,7 @@ str(cg$school[[3]])
 ## ----ex 3-------------------------------------------------------------------------------
 set.seed(4388)
 cg <- cluster_gen(c(5, 1000), rho = .9, n_X = 2, n_W = 0, c_mean = 10)
-sapply(1:5, function(s) mean(cg$school[[s]]$q1))  # means per school != 10
+sapply(1:5, function(s) mean(cg$school[[s]]$q1)) # means per school != 10
 mean(sapply(1:5, function(s) mean(cg$school[[s]]$q1))) # closer to c_mean
 
 ## ----ex 3_str---------------------------------------------------------------------------
@@ -59,7 +63,6 @@ anova(x)
 set.seed(4388)
 n <- c(cnt = 1, sch = 2, stu = 5)
 cg <- cluster_gen(n = n)
-
 
 ## ----ex 5_str---------------------------------------------------------------------------
 cg
@@ -78,7 +81,7 @@ set.seed(4388)
 n <- c(school = 3, class = 2, student = 5)
 cg <- cluster_gen(n, n_X = c(1, 2), sigma = list(.1, c(1, 2)))
 
-## ----ex 7_summary-----------------------------------------------------------------------
+## ----ex 7_summary, warning = TRUE-------------------------------------------------------
 summary(cg)
 
 ## ----ex 8-------------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-e914e78937313cc768c73935efae7b32 *DESCRIPTION
+28517b1511a6b344264467a726f26652 *DESCRIPTION
 7bc8616e86eda2761824814130de485f *NAMESPACE
 27c055a6808b21f725c1313d36192589 *R/anova.R
 f70480c69481e442605601b41f115283 *R/attribute_cluster_labels.R
@@ -68,7 +68,7 @@ eec81ce531eaba0d3eeac96acb7f7484 *R/summary.R
 ff4e3b3cb1bcc788d98b8147c06ec89a *R/validate.R
 780e9f2aaec1defff3ed23a32c1b50da *R/weight_responses.R
 0ab43750c81f29b472d4028b11bcc507 *R/whitelist_message.R
-650a7afd7d1297c489a00b92a7e80cc1 *build/vignette.rds
+27fb9ad73fdb5d3143697e363765f354 *build/vignette.rds
 f2cbc6584ce70d06129dc641b429fc21 *data/pisa2012_math_block.RData
 4caf165b622a09c3ef659b0adbc94093 *data/pisa2012_math_booklet.RData
 18894f94088f5e9e974898877fa60be7 *data/pisa2012_math_item.RData
@@ -76,16 +76,16 @@ fd6afdd0d1045c97f9f88b8896ccd2e2 *data/pisa2012_q_cormat.RData
 2ca479eca74690af62a682230ba6d84c *data/pisa2012_q_marginal.RData
 4e0b1c1f07c39876640c06ad3437493a *inst/doc/ex1_BackgroundQuestionnaireGeneration.R
 473cbb26bc4245c7059ea0ac5bc4e65c *inst/doc/ex1_BackgroundQuestionnaireGeneration.Rmd
-4eb93ca9922408812ef9ba49a53bd578 *inst/doc/ex1_BackgroundQuestionnaireGeneration.html
+ed7900c7f1fcd93de7b9d521073fb957 *inst/doc/ex1_BackgroundQuestionnaireGeneration.html
 3c8203f8d7731faf0f468b5ab345c896 *inst/doc/ex2_UnderstandingElementsOutput.R
 0cd647f60a474db089fa8c08e46f091b *inst/doc/ex2_UnderstandingElementsOutput.Rmd
-8891b0c55f87b9fce0717b38a28ae101 *inst/doc/ex2_UnderstandingElementsOutput.html
+146e3ba476ee2009408a5e349d2d63a9 *inst/doc/ex2_UnderstandingElementsOutput.html
 1097d0a5f85a3e0913a64cabaaec8bf9 *inst/doc/ex3_RetrievingRegressionCoefficients.R
 7d3b1db6c8b5e1a242f7ddcff96085a8 *inst/doc/ex3_RetrievingRegressionCoefficients.Rmd
-e04792b9a74a14e3679ba2606f73d74c *inst/doc/ex3_RetrievingRegressionCoefficients.html
-8d4dee7ff619e3cdb7aef2fca74d5863 *inst/doc/ex4_GeneratingClusterSamples.R
-c3052b7b29fc3baca4b688904d3c9739 *inst/doc/ex4_GeneratingClusterSamples.Rmd
-5405377d5cc1146f9c8ce74ab3551d8b *inst/doc/ex4_GeneratingClusterSamples.html
+dc0eaf614697bca3081a4c294c131d18 *inst/doc/ex3_RetrievingRegressionCoefficients.html
+48ff5181c4b1cbb20297587c43c5a616 *inst/doc/ex4_GeneratingClusterSamples.R
+08cbcdbbf8a938721b6d6f561452e68f *inst/doc/ex4_GeneratingClusterSamples.Rmd
+abb76b5e27a1f3518e170077e1f2653d *inst/doc/ex4_GeneratingClusterSamples.html
 1a7cf609b96b0fd3bb9647079d2149d7 *man/anova.lsasimcluster.Rd
 a71b921b98cc2f91ea1f24b3ca6558cc *man/attribute_cluster_labels.Rd
 53d1b7a065482cd229ea47a10c96b9ed *man/beta_gen.Rd
@@ -178,4 +178,4 @@ c680affd2b56a13eb3288cb68c4e75d7 *tests/testthat/test.regressionCoefficientsBoot
 473cbb26bc4245c7059ea0ac5bc4e65c *vignettes/ex1_BackgroundQuestionnaireGeneration.Rmd
 0cd647f60a474db089fa8c08e46f091b *vignettes/ex2_UnderstandingElementsOutput.Rmd
 7d3b1db6c8b5e1a242f7ddcff96085a8 *vignettes/ex3_RetrievingRegressionCoefficients.Rmd
-c3052b7b29fc3baca4b688904d3c9739 *vignettes/ex4_GeneratingClusterSamples.Rmd
+08cbcdbbf8a938721b6d6f561452e68f *vignettes/ex4_GeneratingClusterSamples.Rmd
