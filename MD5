@@ -1,4 +1,4 @@
-b5853c847e0b455c71dfacd9d9e1266f *DESCRIPTION
+3d0070f68a87c787dbc9802eb2d65e05 *DESCRIPTION
 7bc8616e86eda2761824814130de485f *NAMESPACE
 27c055a6808b21f725c1313d36192589 *R/anova.R
 f70480c69481e442605601b41f115283 *R/attribute_cluster_labels.R
@@ -39,7 +39,7 @@ d5a609bc098470208cc6b4a6fd4dba9e *R/irt_gen.R
 bcef4d61a186ceaefcee80f01b48e514 *R/jackknife.R
 39612be888ee8debd8300b38b96cfdff *R/label_respondents.R
 626cd8f3e45197135bf9780f22e7a93f *R/lambda_gen.R
-0f991339ea8c6f4aef94fb96be7c45e4 *R/lsasim.R
+c93deb6aa18895632692b76fc47a6a5c *R/lsasim.R
 f20d8b50c4cd84fdf86f0c4ee43ace1f *R/misc.R
 69c60e621c176f31176df9ccd9886e46 *R/pisa2012_math_block.R
 b2f61d82c523f782b77516e282bc136c *R/pisa2012_math_booklet.R
@@ -68,7 +68,7 @@ ebe826b62cda7e0c55b818ca57c1677a *R/split_cat_prop.R
 0cba0cbc1631ad9800ae1edacfc48e8b *R/validate.R
 780e9f2aaec1defff3ed23a32c1b50da *R/weight_responses.R
 0ab43750c81f29b472d4028b11bcc507 *R/whitelist_message.R
-e835b459dc736920d7c62f38bc2c29fd *build/vignette.rds
+4d89e3bc0aa4d202797a4efe3ccdd223 *build/vignette.rds
 f2cbc6584ce70d06129dc641b429fc21 *data/pisa2012_math_block.RData
 4caf165b622a09c3ef659b0adbc94093 *data/pisa2012_math_booklet.RData
 18894f94088f5e9e974898877fa60be7 *data/pisa2012_math_item.RData
@@ -76,16 +76,16 @@ fd6afdd0d1045c97f9f88b8896ccd2e2 *data/pisa2012_q_cormat.RData
 2ca479eca74690af62a682230ba6d84c *data/pisa2012_q_marginal.RData
 4e0b1c1f07c39876640c06ad3437493a *inst/doc/ex1_BackgroundQuestionnaireGeneration.R
 473cbb26bc4245c7059ea0ac5bc4e65c *inst/doc/ex1_BackgroundQuestionnaireGeneration.Rmd
-6c92d7c2f41fe4621632eadbd302e846 *inst/doc/ex1_BackgroundQuestionnaireGeneration.html
+7dbc742a38ab9029550cf61ba37a377e *inst/doc/ex1_BackgroundQuestionnaireGeneration.html
 3c8203f8d7731faf0f468b5ab345c896 *inst/doc/ex2_UnderstandingElementsOutput.R
 0cd647f60a474db089fa8c08e46f091b *inst/doc/ex2_UnderstandingElementsOutput.Rmd
-afeeb54ef5394d5790c00c43c3c2f617 *inst/doc/ex2_UnderstandingElementsOutput.html
+094515651533da51b27fa1e5ce0ac4e5 *inst/doc/ex2_UnderstandingElementsOutput.html
 1097d0a5f85a3e0913a64cabaaec8bf9 *inst/doc/ex3_RetrievingRegressionCoefficients.R
 7d3b1db6c8b5e1a242f7ddcff96085a8 *inst/doc/ex3_RetrievingRegressionCoefficients.Rmd
-25cb9ed1e9f5fbe976def3bfe4238833 *inst/doc/ex3_RetrievingRegressionCoefficients.html
+8ace3c0f7a4f7b0e06d313731f98deca *inst/doc/ex3_RetrievingRegressionCoefficients.html
 48ff5181c4b1cbb20297587c43c5a616 *inst/doc/ex4_GeneratingClusterSamples.R
 08cbcdbbf8a938721b6d6f561452e68f *inst/doc/ex4_GeneratingClusterSamples.Rmd
-7f8f694951fbbb17bde91432496725ff *inst/doc/ex4_GeneratingClusterSamples.html
+100434da486b55c249d2431c44b46278 *inst/doc/ex4_GeneratingClusterSamples.html
 1a7cf609b96b0fd3bb9647079d2149d7 *man/anova.lsasimcluster.Rd
 a71b921b98cc2f91ea1f24b3ca6558cc *man/attribute_cluster_labels.Rd
 284eb111f13d31dd052c8ba0d4c21ff7 *man/beta_gen.Rd
@@ -125,7 +125,7 @@ de3247238d992419b4523d2b1e5bec7c *man/item_gen.Rd
 cb3b7b0057e4c0d671c7733dc9d6c9f0 *man/jackknife.Rd
 7cde8b4dd361277588871fabb6eea19d *man/label_respondents.Rd
 043de3d9f852aeca3d4391ca610ae344 *man/lambda_gen.Rd
-78b475f51a1130713cb23e7d1cc4c6af *man/lsasim.Rd
+d4f6790bdbaa92d4a548f9f1ba920e48 *man/lsasim.Rd
 ab4137a2c31931803edcd7b362d61bb8 *man/pisa2012_math_block.Rd
 d5726bfa1eae29d0aa513ea3312c5d57 *man/pisa2012_math_booklet.Rd
 8ba96f55fca7c6339055b4564efa91ca *man/pisa2012_math_item.Rd

@@ -1,7 +1,7 @@
 Package: lsasim
 Title: Functions to Facilitate the Simulation of Large Scale Assessment
         Data
-Version: 2.1.3
+Version: 2.1.4
 Authors@R: c(
   person("Tyler", "Matta",
          email = "tyler.matta@gmail.com", role = "aut"),
@@ -33,8 +33,9 @@ LazyData: true
 RoxygenNote: 7.2.3
 Suggests: testthat, knitr, formatR, rmarkdown
 VignetteBuilder: knitr
+Date: 2023-08-21
 NeedsCompilation: no
-Packaged: 2023-03-28 10:17:05 UTC; waldir
+Packaged: 2023-08-21 08:48:56 UTC; waldir
 Author: Tyler Matta [aut],
   Leslie Rutkowski [aut],
   David Rutkowski [aut],
@@ -45,4 +46,4 @@ Author: Tyler Matta [aut],
   Paul Bailey [ctb]
 Maintainer: Waldir Leoncio <w.l.netto@medisin.uio.no>
 Repository: CRAN
-Date/Publication: 2023-03-28 11:10:02 UTC
+Date/Publication: 2023-08-22 13:00:02 UTC
