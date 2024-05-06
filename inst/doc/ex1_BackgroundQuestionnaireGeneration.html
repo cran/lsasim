@@ -30,27 +30,27 @@ document.addEventListener('DOMContentLoaded', function(e) {
 </script>
 
 <style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
 
 
 
 <style type="text/css">
-  code {
-    white-space: pre;
-  }
-  .sourceCode {
-    overflow: visible;
-  }
+code {
+white-space: pre;
+}
+.sourceCode {
+overflow: visible;
+}
 </style>
 <style type="text/css" data-origin="pandoc">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -61,58 +61,57 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
-  { counter-reset: source-line 0; }
+{ counter-reset: source-line 0; }
 pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
+{ position: relative; left: -4em; counter-increment: source-line; }
 pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+color: #aaaaaa;
+}
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
 div.sourceCode
-  {   }
+{ }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-
+code span.al { color: #ff0000; font-weight: bold; } 
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.at { color: #7d9029; } 
+code span.bn { color: #40a070; } 
+code span.bu { color: #008000; } 
+code span.cf { color: #007020; font-weight: bold; } 
+code span.ch { color: #4070a0; } 
+code span.cn { color: #880000; } 
+code span.co { color: #60a0b0; font-style: italic; } 
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.do { color: #ba2121; font-style: italic; } 
+code span.dt { color: #902000; } 
+code span.dv { color: #40a070; } 
+code span.er { color: #ff0000; font-weight: bold; } 
+code span.ex { } 
+code span.fl { color: #40a070; } 
+code span.fu { color: #06287e; } 
+code span.im { color: #008000; font-weight: bold; } 
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.kw { color: #007020; font-weight: bold; } 
+code span.op { color: #666666; } 
+code span.ot { color: #007020; } 
+code span.pp { color: #bc7a00; } 
+code span.sc { color: #4070a0; } 
+code span.ss { color: #bb6688; } 
+code span.st { color: #4070a0; } 
+code span.va { color: #19177c; } 
+code span.vs { color: #4070a0; } 
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
 </style>
 <script>
 // apply pandoc div.sourceCode style to pre.sourceCode instead
@@ -344,13 +343,13 @@ generation</h1>
 
 
 
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lsasim)</span></code></pre></div>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">packageVersion</span>(<span class="st">&quot;lsasim&quot;</span>)</span></code></pre></div>
-<pre><code>[1] &#39;2.1.4&#39;</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">library</span>(lsasim)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">packageVersion</span>(<span class="st">&quot;lsasim&quot;</span>)</span></code></pre></div>
+<pre><code>[1] &#39;2.1.5&#39;</code></pre>
 <hr />
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">questionnaire_gen</span>(n_obs, <span class="at">cat_prop =</span> <span class="cn">NULL</span>, <span class="at">n_vars =</span> <span class="cn">NULL</span>, <span class="at">n_X =</span> <span class="cn">NULL</span>, <span class="at">n_W =</span> <span class="cn">NULL</span>, <span class="at">cor_matrix =</span> <span class="cn">NULL</span>,</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="at">cov_matrix =</span> <span class="cn">NULL</span>, <span class="at">c_mean =</span> <span class="cn">NULL</span>, <span class="at">c_sd =</span> <span class="cn">NULL</span>, <span class="at">theta =</span> <span class="cn">FALSE</span>, <span class="at">family =</span> <span class="cn">NULL</span>, <span class="at">full_output =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">verbose =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="fu">questionnaire_gen</span>(n_obs, <span class="at">cat_prop =</span> <span class="cn">NULL</span>, <span class="at">n_vars =</span> <span class="cn">NULL</span>, <span class="at">n_X =</span> <span class="cn">NULL</span>, <span class="at">n_W =</span> <span class="cn">NULL</span>, <span class="at">cor_matrix =</span> <span class="cn">NULL</span>,</span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>    <span class="at">cov_matrix =</span> <span class="cn">NULL</span>, <span class="at">c_mean =</span> <span class="cn">NULL</span>, <span class="at">c_sd =</span> <span class="cn">NULL</span>, <span class="at">theta =</span> <span class="cn">FALSE</span>, <span class="at">family =</span> <span class="cn">NULL</span>, <span class="at">full_output =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a>    <span class="at">verbose =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
 <p>The function <code>questionnaire_gen</code> generates correlated
 continuous and ordinal data which resembles background questionnaire
 data. The required argument is <code>n_obs</code> and the optional
@@ -367,9 +366,10 @@ as well as the latent trait (<code>theta</code>).</li>
 variables.</li>
 <li><code>n_W</code>: the number of ordinal (<code>W</code>)
 variables.</li>
-<li><code>cor_matrix</code>: a possibly heterogenous correlation matrix,
-consisting of polyserial correlations between continuous and ordinal
-variables, and polychoric correlations between ordinal variables.</li>
+<li><code>cor_matrix</code>: a possibly heterogeneous correlation
+matrix, consisting of polyserial correlations between continuous and
+ordinal variables, and polychoric correlations between ordinal
+variables.</li>
 <li><code>cov_matrix</code>: a covariance matrix, formatted as
 <code>cov_matrix</code>.</li>
 </ul>
@@ -390,9 +390,9 @@ addressed in future tutorials.</p>
 normal distribution. It turned out the generated data involves one
 continuous variable and four ordinal covariates, which are 2-category,
 3-category, 4-category, and 5-category, respectively.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
 <pre><code>&#39;data.frame&#39;:   100 obs. of  6 variables:
  $ subject: int  1 2 3 4 5 6 7 8 9 10 ...
  $ q1     : num  -0.6178 1.0299 -0.12 0.0624 1.4585 ...
@@ -405,9 +405,9 @@ continuous variable and four ordinal covariates, which are 2-category,
 argument <code>theta = TRUE</code>. An additional continuous variable is
 generated and labeled <code>theta</code>. The latent trait is always
 placed first in the generated data.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
 <pre><code>&#39;data.frame&#39;:   100 obs. of  7 variables:
  $ subject: int  1 2 3 4 5 6 7 8 9 10 ...
  $ theta  : num  -1.611 -0.388 1.105 1.618 1.663 ...
@@ -420,9 +420,9 @@ placed first in the generated data.</p>
 <p>We specify <code>n_vars = 4</code> regardless the item type. Four
 different item types are generated, one 1-category item (continuous),
 one 2-category item, one 4-category item, and one 5-category item.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_vars =</span> <span class="dv">4</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_vars =</span> <span class="dv">4</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
 <pre><code>&#39;data.frame&#39;:   100 obs. of  5 variables:
  $ subject: int  1 2 3 4 5 6 7 8 9 10 ...
  $ q1     : num  0.146 0.83 1.137 0.271 1.115 ...
@@ -435,10 +435,10 @@ argument <code>theta = TRUE</code>. Three different item types are
 generated, two 1-category item (latent trait and continuous), one
 2-category item, and one 5-category item. It is noted that when
 <code>theta = TRUE</code>, the first continuous variable generated is
-alwasy labeled <code>theta</code>.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_vars =</span> <span class="dv">4</span>, <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
+always labeled <code>theta</code>.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_vars =</span> <span class="dv">4</span>, <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
 <pre><code>&#39;data.frame&#39;:   100 obs. of  5 variables:
  $ subject: int  1 2 3 4 5 6 7 8 9 10 ...
  $ theta  : num  -0.666 -0.937 -2.229 0.931 -1.438 ...
@@ -450,9 +450,9 @@ alwasy labeled <code>theta</code>.</p>
 specifying <code>theta = TRUE</code> and <code>n_X = 3</code>. We also
 add <code>n_W = 0</code>, or random number of ordinal variables will be
 generated.</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_X =</span> <span class="dv">3</span>, <span class="at">n_W =</span> <span class="dv">0</span>, <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
+<span id="cb13-2"><a href="#cb13-2" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_X =</span> <span class="dv">3</span>, <span class="at">n_W =</span> <span class="dv">0</span>, <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
 <pre><code>&#39;data.frame&#39;:   100 obs. of  5 variables:
  $ subject: int  1 2 3 4 5 6 7 8 9 10 ...
  $ theta  : num  -0.763 -0.822 -0.404 -1.955 0.981 ...
@@ -460,9 +460,9 @@ generated.</p>
  $ q2     : num  0.0349 0.7822 -0.1954 0.9954 -0.203 ...
  $ q3     : num  -0.3048 -0.3757 1.8951 1.1954 0.0676 ...</code></pre>
 <hr />
-<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_X =</span> <span class="dv">3</span>, <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_X =</span> <span class="dv">3</span>, <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
 <pre><code>&#39;data.frame&#39;:   100 obs. of  10 variables:
  $ subject: int  1 2 3 4 5 6 7 8 9 10 ...
  $ theta  : num  0.2258 -0.1851 -0.0877 0.0436 0.05 ...
@@ -479,9 +479,9 @@ generated.</p>
 generate one latent trait and three continuous covariates. The length of
 <code>cat_prop</code> corresponds to the number of generated variables
 (including latent trait and continuous variables in this case).</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">cat_prop =</span> <span class="fu">list</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>), <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">cat_prop =</span> <span class="fu">list</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>), <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
 <pre><code>&#39;data.frame&#39;:   100 obs. of  5 variables:
  $ subject: int  1 2 3 4 5 6 7 8 9 10 ...
  $ theta  : num  -0.763 -0.822 -0.404 -1.955 0.981 ...
@@ -492,18 +492,18 @@ generate one latent trait and three continuous covariates. The length of
 <p>We generate two ordinal variables regardless the item type. It turned
 out one 2-category variable and one 5-category variable are generated,
 respectively.</p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_X =</span> <span class="dv">0</span>, <span class="at">n_W =</span> <span class="dv">2</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_X =</span> <span class="dv">0</span>, <span class="at">n_W =</span> <span class="dv">2</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
+<span id="cb19-3"><a href="#cb19-3" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
 <pre><code>&#39;data.frame&#39;:   100 obs. of  3 variables:
  $ subject: int  1 2 3 4 5 6 7 8 9 10 ...
  $ q1     : Factor w/ 2 levels &quot;1&quot;,&quot;2&quot;: 2 1 1 1 1 1 1 2 2 1 ...
  $ q2     : Factor w/ 5 levels &quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,..: 1 4 5 3 5 4 2 1 1 1 ...</code></pre>
 <hr />
 <p>We generate one binary variable and 3 four-category variables.</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_X =</span> <span class="dv">0</span>, <span class="at">n_W =</span> <span class="fu">list</span>(<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">4</span>, <span class="dv">4</span>), <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
+<span id="cb21-2"><a href="#cb21-2" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_X =</span> <span class="dv">0</span>, <span class="at">n_W =</span> <span class="fu">list</span>(<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">4</span>, <span class="dv">4</span>), <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
+<span id="cb21-3"><a href="#cb21-3" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
 <pre><code>&#39;data.frame&#39;:   100 obs. of  5 variables:
  $ subject: int  1 2 3 4 5 6 7 8 9 10 ...
  $ q1     : Factor w/ 2 levels &quot;1&quot;,&quot;2&quot;: 1 2 2 2 1 2 1 1 1 2 ...
@@ -514,10 +514,10 @@ respectively.</p>
 <p>We generate five variables including one latent trait, two
 continuous, and two binary covariates. The latent trait is scaled on a
 mean set at 500, with a standard deviation of 100.</p>
-<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_X =</span> <span class="dv">2</span>, <span class="at">n_W =</span> <span class="fu">list</span>(<span class="dv">2</span>, <span class="dv">2</span>), <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">c_mean =</span> <span class="fu">c</span>(<span class="dv">500</span>,</span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span>, <span class="dv">0</span>), <span class="at">c_sd =</span> <span class="fu">c</span>(<span class="dv">100</span>, <span class="dv">1</span>, <span class="dv">1</span>), <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
-<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
+<span id="cb23-2"><a href="#cb23-2" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">n_X =</span> <span class="dv">2</span>, <span class="at">n_W =</span> <span class="fu">list</span>(<span class="dv">2</span>, <span class="dv">2</span>), <span class="at">theta =</span> <span class="cn">TRUE</span>, <span class="at">c_mean =</span> <span class="fu">c</span>(<span class="dv">500</span>,</span>
+<span id="cb23-3"><a href="#cb23-3" tabindex="-1"></a>    <span class="dv">0</span>, <span class="dv">0</span>), <span class="at">c_sd =</span> <span class="fu">c</span>(<span class="dv">100</span>, <span class="dv">1</span>, <span class="dv">1</span>), <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
 <pre><code>&#39;data.frame&#39;:   100 obs. of  6 variables:
  $ subject: int  1 2 3 4 5 6 7 8 9 10 ...
  $ theta  : num  515 612 578 476 437 ...
@@ -531,11 +531,11 @@ covariance matrix between the numeric and ordinal variables. The
 continuous covariate is scaled and the average is 2 by specifying
 <code>c_mean = 2</code>. When <code>cov_matrix</code> is provided,
 <code>c_sd</code> is ignored .</p>
-<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>props <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="dv">1</span>, <span class="fu">c</span>(<span class="fl">0.25</span>, <span class="dv">1</span>), <span class="fu">c</span>(<span class="fl">0.2</span>, <span class="fl">0.8</span>, <span class="dv">1</span>))</span>
-<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>yw_cov <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="fl">0.5</span>, <span class="fl">0.5</span>, <span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">0.8</span>, <span class="fl">0.5</span>, <span class="fl">0.8</span>, <span class="dv">1</span>), <span class="at">nrow =</span> <span class="dv">3</span>)</span>
-<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">cat_prop =</span> props, <span class="at">cov_matrix =</span> yw_cov, <span class="at">c_mean =</span> <span class="dv">2</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
-<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">4388</span>)</span>
+<span id="cb25-2"><a href="#cb25-2" tabindex="-1"></a>props <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="dv">1</span>, <span class="fu">c</span>(<span class="fl">0.25</span>, <span class="dv">1</span>), <span class="fu">c</span>(<span class="fl">0.2</span>, <span class="fl">0.8</span>, <span class="dv">1</span>))</span>
+<span id="cb25-3"><a href="#cb25-3" tabindex="-1"></a>yw_cov <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="fl">0.5</span>, <span class="fl">0.5</span>, <span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">0.8</span>, <span class="fl">0.5</span>, <span class="fl">0.8</span>, <span class="dv">1</span>), <span class="at">nrow =</span> <span class="dv">3</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" tabindex="-1"></a>bg <span class="ot">&lt;-</span> <span class="fu">questionnaire_gen</span>(<span class="at">n_obs =</span> <span class="dv">100</span>, <span class="at">cat_prop =</span> props, <span class="at">cov_matrix =</span> yw_cov, <span class="at">c_mean =</span> <span class="dv">2</span>, <span class="at">family =</span> <span class="st">&quot;gaussian&quot;</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" tabindex="-1"></a><span class="fu">str</span>(bg)</span></code></pre></div>
 <pre><code>&#39;data.frame&#39;:   100 obs. of  4 variables:
  $ subject: int  1 2 3 4 5 6 7 8 9 10 ...
  $ q1     : num  1.878 3.746 2.938 2.386 0.768 ...

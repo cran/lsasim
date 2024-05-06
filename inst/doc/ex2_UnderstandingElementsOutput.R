@@ -17,7 +17,7 @@ packageVersion("lsasim")
 #                    theta = FALSE, family = NULL,
 #                    full_output = FALSE, verbose = TRUE)
 
-## ---- include = FALSE-------------------------------------------------------------------
+## ----include = FALSE--------------------------------------------------------------------
 set.seed(1234)
 (props <- list(1, c(.25, 1), c(.2, .8, 1)))
 (yw_cov <- matrix(c(1, .5, .5, .5, 1, .8, .5, .8, 1), nrow = 3))
@@ -25,7 +25,7 @@ bg <- questionnaire_gen(n_obs = 10, cat_prop = props, cov_matrix = yw_cov, theta
                   family = "gaussian", full_output = TRUE)
 names(bg)
 
-## ---- eval=FALSE------------------------------------------------------------------------
+## ----eval=FALSE-------------------------------------------------------------------------
 #  ?questionnaire_gen
 
 ## ----ex 1a------------------------------------------------------------------------------
