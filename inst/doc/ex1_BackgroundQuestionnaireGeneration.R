@@ -11,11 +11,11 @@ library(lsasim)
 packageVersion("lsasim")
 
 ## ----equation, eval=FALSE---------------------------------------------------------------
-#  questionnaire_gen(n_obs, cat_prop = NULL, n_vars = NULL, n_X = NULL, n_W = NULL,
-#                    cor_matrix = NULL, cov_matrix = NULL,
-#                    c_mean = NULL, c_sd = NULL,
-#                    theta = FALSE, family = NULL,
-#                    full_output = FALSE, verbose = TRUE)
+# questionnaire_gen(n_obs, cat_prop = NULL, n_vars = NULL, n_X = NULL, n_W = NULL,
+#                   cor_matrix = NULL, cov_matrix = NULL,
+#                   c_mean = NULL, c_sd = NULL,
+#                   theta = FALSE, family = NULL,
+#                   full_output = FALSE, verbose = TRUE)
 
 ## ----ex 1a------------------------------------------------------------------------------
 set.seed(4388)
